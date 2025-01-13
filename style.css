@@ -52,6 +52,7 @@ main {
 }
 .why-web-dev-title {
   margin-bottom: 24px;
+  margin-top: 111px;
 }
 .why-web-dev-sub-title {
   margin-bottom: 48px;
@@ -87,4 +88,176 @@ main {
   width: 274.169px;
   height: 240px;
   padding: 3.767px 13.664px 19.221px 0.941px;
+}
+
+/* My current target */
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 32px;
+}
+.target-container {
+  margin-top: 111px;
+}
+.html-box {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  width: 364px;
+  padding: 40px;
+  text-align: start;
+}
+.html-img {
+  margin-bottom: 24px;
+}
+.html-sub-title {
+  margin-bottom: 24px;
+}
+.css-img {
+  margin-bottom: 24px;
+}
+.css-bg {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.js-bg {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+/* My next target */
+.target-main {
+  margin-top: 111px;
+}
+.target-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.react-box {
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+  padding: 40px;
+  gap: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+  margin-top: 48px;
+}
+.react-tile {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.react-sub-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.node-img {
+  width: 100px;
+  height: 88px;
+}
+/* ------Video title----- */
+.video-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.video-sub-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+.video-content {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 50px;
+}
+.iframe {
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+
+/* Support */
+.support-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0px;
+}
+.support {
+  background-image: url("./assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1140px;
+  padding: 64px 48px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%);
+}
+.support-tile {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.support-sub-title {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.support-input {
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  width: 548px;
+  padding: 19px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+}
+input::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 18px;
+  font-weight: 400;
+}
+.support-div {
+  display: flex;
+  justify-content: center;
+}
+.support-btn {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  width: 120px;
+  padding: 25px 20px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+/* ------Footer ------*/
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  width: 1600px;
+  padding: 40px 150px;
+  gap: 32px;
+}
+.footer-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
 }
